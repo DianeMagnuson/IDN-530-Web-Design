@@ -1,0 +1,222 @@
+h1 {
+	text-align: center;
+	font-family: verdana;
+	background: #97b5d5;
+	color: white;
+	margin: 0;
+	padding: 4.5% 0% 4.5% 0%;
+}
+
+body{
+	margin: 0;
+}
+
+h2 {
+	border-size: 5px;
+	border-color: ##064D9B;
+	border-radius: 25%;
+	text-align: center;
+	font-family: verdana;
+	background: #white;
+  color: #064D9B;
+	margin: 0;
+	padding: 4.0% 0 4.0% 0;
+}
+
+body{
+	margin: 0;
+}
+
+nav {
+	background: #064D9B;
+	text-align: center;
+	font-size: 14px;
+	padding: 1.5% 0 1.5% 0;
+}
+
+nav a {
+	padding: 20px;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.active{
+	background: orange;
+}
+
+a:hover{
+	background: black;
+}
+
+@media screen and (max-width: 500px){
+	nav a{
+		display: block;
+		margin:0;
+		padding:3%;
+	}
+}
+
+img {
+	display: block;
+	border: 2px black;
+	border-radius: 18px;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.iframe-container {
+	display: block;
+  overflow: hidden;
+  padding-top: 55%;
+  position: relative;
+}
+
+.iframe-container iframe {
+	display: block;
+   border: 0;
+   height: 40%;
+   left: 25%;
+	 right: 25%;
+   position: absolute;
+   top: 0;
+   width: 40%;
+}
+
+	div {
+	font-family: arial;
+	font-size: 30px;
+	background: white;
+	border-color: #064d9b;
+}
+
+p {
+	text-align: left;
+	font-size: 18px;
+	font-family: arial;
+	margin:auto;
+	color: #064d9b;
+}
+
+.quote {
+	text-align: center;
+	font-family: arial;
+	font-size: 16px
+	padding: 2px;
+	color: #2F85FC;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-style: double;
+	border-radius: 18px
+	border: color: #064d9b;
+}
+
+.intro {
+	font-family: arial;
+	font-size: 30px;
+	text-align: left;
+	color: #064d9b;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+ul {
+	text-align: left;
+	font-family: arial;
+	font-size: 30px;
+	color: #064d9b;
+}
+
+li {
+	text-align: left;
+	font-family: arial;
+	font-size: 18px;
+	color: #064d9b;
+	border: 5px;
+}
+
+.why {
+	font-family: arial;
+	font-size: 30px;
+	color: #064d9b;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1;
+}
+
+.because {
+	font-family: arial;
+	font-size: 30px;
+	color: #064d9b;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.add {
+	font-family: arial;
+	font-size: 30px;
+	color: #064d9b;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.contact {
+	font-family: arial;
+	font-size: 30px;
+	color: #064d9b;
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+.aboutgrid{
+	display:grid;
+	grid-template-columns: 1fr 4fr 2fr 4fr 1fr;
+	grid-gap:.5rem;
+}
+
+@media screen and (max-width: 500px){
+	.htmldiv, {
+		color: white:inherit;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.content1grid, .imggrid{
+		grid-template-columns: 1fr;
+	}
+}
